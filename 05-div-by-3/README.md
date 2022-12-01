@@ -7,3 +7,25 @@ Think of the following method header:
 `public static boolean isPrime(int num)`
 
   * **YOUR WRITING HERE**
+
+class Main {
+  public static void main(String[] args) {
+    System.out.println(div(129130)); // false
+    System.out.println(div(51283)); // false
+    System.out.println(div(289313)); // false
+    System.out.println(div(12123)); // true
+    System.out.println(div(12124)); // false
+    System.out.println(div(12125)); // false
+    System.out.println(div(12126)); // true
+    System.out.println(div(453553453)); // false
+
+  }
+  public static boolean div(int a){
+    if ((a % 10000000) % 3 == 0){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+}
