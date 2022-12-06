@@ -23,6 +23,8 @@
 3. What does DeMorgan's state and how did you prove it for the case above?
   * **YOUR WRITING HERE**
   
+DeMorgan's state proves whether the statements are true or false based on and, or.
+  
   
 //MY CODE HERE
   class Main {
